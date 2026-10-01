@@ -1,0 +1,19 @@
+[project]
+name = "desafio-a2a-com-mcp"
+version = "1.0.0"
+description = "A Ponte: servidor MCP (Streamable HTTP) e agente A2A para reserva de salas"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp==2.2.0",
+    "fastapi==0.141.1",
+    "uvicorn==0.54.0",
+    "pydantic==2.13.5",
+    "httpx==0.28.1",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
